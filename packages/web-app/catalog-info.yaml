@@ -9,3 +9,5 @@ spec:
   type: service
   owner: group:engineering
   lifecycle: production
+  consumesApis:
+    - platform-api
