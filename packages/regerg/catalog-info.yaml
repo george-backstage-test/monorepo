@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "regerg"
+spec:
+  type: service
+  owner: group:default/ai
+  lifecycle: experimental
