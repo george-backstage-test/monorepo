@@ -1,0 +1,12 @@
+{
+  "name": "rtfgrsth",
+  "version": "1.0.0",
+  "description": "trh",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
