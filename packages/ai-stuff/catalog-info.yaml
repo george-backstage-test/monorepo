@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "AI Experiments"
+  annotations:
+    github.com/project-slug: george-backstage-test/monorepo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:ai
+  lifecycle: experimental
