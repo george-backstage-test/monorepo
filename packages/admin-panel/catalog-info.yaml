@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "admin-panel"
+spec:
+  type: service
+  owner: group:default/engineering
+  lifecycle: experimental
