@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "platform-api"
+  description: The platform's tRPC API
+  annotations:
+    github.com/project-slug: george-backstage-test/monorepo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: trpc
+  owner: group:engineering
+  lifecycle: production
